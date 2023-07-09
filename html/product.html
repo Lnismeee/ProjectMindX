@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- css -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/product.css" />
-
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+        <link rel="stylesheet" href="../assets/css/product.css" />
+        <link rel="stylesheet" href="../assets/css/footer.css" />
 
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,46 +29,47 @@
         <!-- Header -->
         <header class="header">
             <div class="container">
-                <nav class="home">
-                    <a href="#">
+                <nav class="navbar">
+                    <!-- logo -->
+                    <a href="#!">
                         <img
-                            src="./assets/img/home/Logo.svg"
+                            src="../assets/img/home/Logo.svg"
                             alt=""
-                            class="home__logo"
+                            class="navbar__logo"
                         />
                     </a>
-                    <a href="home.html" class="home__icon"
-                        ><i class="fa-solid fa-house"></i
-                    ></a>
-                    <ul class="home__list">
-                        <li class="home__item">
+                    <a href="home.html " class="navbar__icon--out">
+                        <i class="fa-solid fa-house navbar__icon"></i>
+                    </a>
+                    <!-- navigation -->
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
                             <a href="introduction.html">Giới thiệu</a>
                         </li>
-                        <li class="home__item">
+                        <li class="navbar__item">
                             <a href="calendar.html">Lịch sự kiện</a>
                         </li>
-                        <li class="home__item">
-                            <a href="produce.html">Sản phẩm</a>
+                        <li class="navbar__item">
+                            <a href="product.html">Sản phẩm</a>
                         </li>
-                        <li class="home__item">
-                            <a href="#">Liên hệ</a>
+                        <li class="navbar__item">
+                            <a href="contact.html">Liên hệ</a>
                         </li>
-                        <li class="home__item">
-                            <a href="#">Tin tức</a>
+                        <li class="navbar__item">
+                            <a href="news.html">Tin tức</a>
                         </li>
                     </ul>
-                    <div class="home__action">
+                    <!-- Action -->
+                    <div class="btn">
                         <a href="#"
                             ><i
-                                class="fa-solid fa-ticket home__action--icon"
+                                class="fa-solid fa-ticket navbar__action--icon"
                             ></i
                         ></a>
-                        <a href="#" class="home__action--content"
-                            >ĐẶT VÉ NGAY</a
-                        >
+                        <a href="#" class="navbar__content">ĐẶT VÉ NGAY</a>
                     </div>
                 </nav>
-                
+            </div>
         </header>
         <!-- main -->
         <main>
@@ -76,259 +77,396 @@
                 <div class="container">
                     <h1 class="product__heading">Sản phẩm</h1>
                     <div class="product-top">
-                        <i class="fa-solid fa-list"></i>
-                        <a href="#!" class="product__btn home__action">
-                             Vé
+                        <i class="fa-solid fa-list product__icon"></i>
+                        <a href="./product.html" class="product__btn btn">
+                            Vé
                         </a>
-                        <a href="#!" class="product__btn home__action">
+                        <a
+                            href="./product2.html"
+                            class="product__btn btn product1__btn"
+                        >
                             Thẻ
-                         </a>
+                        </a>
                     </div>
                     <div class="product__list">
                         <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
                             <div class="product__content">
-                                <div class="product__ticket">
+                                <div class="product__ticket product__icon">
                                     <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
                                 </div>
                                 <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
-                        <div class="product__item">
-                            <img src="./assets/img/product/ticket.jpeg" class="product__img">
-                            <div class="product__content">
-                                <div class="product__ticket">
-                                    <i class="fa-solid fa-ticket"></i>
-                                    <span class="product__span">Đêm nhạc hấp dẫn</span>
-                                </div>
-                                <div class="product__price">
-                                    <i class="fa-solid fa-money-check-dollar"></i>
-                                    <span class="product__span">500.000VNĐ</span>
-                                </div>
-                                
-                                <div class="product__time">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <span class="product__desc">20.3.2023 đến 24.3.2023</span>
-                                    
-                                </div>
-                                <div class="product__address">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="product__desc">NHA TRANG</span>
-                                </div>
-                                <div class="product__btn2">
-                                    <a href="#!" class=" home__action">
-                                    Đang diễn ra
-                                 </a></div>
-                            </div>    
-                        </div>
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
 
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img
+                                src="../assets/img/product/ticket.jpeg"
+                                class="product__img"
+                            />
+                            <div class="product__content">
+                                <div class="product__ticket product__icon">
+                                    <i class="fa-solid fa-ticket"></i>
+                                    <span class="product__span"
+                                        >Đêm nhạc hấp dẫn</span
+                                    >
+                                </div>
+                                <div class="product__price">
+                                    <i
+                                        <i
+                                        class="fa-solid fa-money-check-dollar product__icon"
+                                    ></i>
+
+                                    <span class="product__span"
+                                        >500.000VNĐ</span
+                                    >
+                                </div>
+
+                                <div class="product__time">
+                                    <i
+                                        class="fa-solid fa-calendar-days product__icon"
+                                    ></i>
+                                    <span class="product__desc"
+                                        >20.3.2023 đến 24.3.2023</span
+                                    >
+                                </div>
+                                <div class="product__address">
+                                    <i
+                                        class="fa-solid fa-location-dot product__icon"
+                                    ></i>
+                                    <span class="product__desc">NHA TRANG</span>
+                                </div>
+                                <div class="product__btn2">
+                                    <a href="#!" class="btn"> Đang diễn ra </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -340,7 +478,7 @@
                     <div class="footer__column">
                         <!-- Logo -->
                         <a href="/">
-                            <img src="./assets/img/home/Logo.svg" alt="" />
+                            <img src="../assets/img/home/Logo.svg" alt="" />
                         </a>
                         <p class="footer__desc">
                             Exceptional dental care for all ages. Your great
@@ -348,7 +486,7 @@
                         </p>
                     </div>
                     <div class="footer__column">
-                        <h3 class="footer__span">Support</h3>
+                        <h3 class="footer__heading">Support</h3>
                         <ul class="footer__item">
                             <li class="footer__item">
                                 <a href="#!" class="footer__link">

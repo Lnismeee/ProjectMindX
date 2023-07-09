@@ -4,8 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- css -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/homeStyles.css" />
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+        <link rel="stylesheet" href="../assets/css/contact.css" />
+        <link rel="stylesheet" href="../assets/css/footer.css" />
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,91 +27,78 @@
     <body>
         <header class="header">
             <div class="container">
-                <nav class="home">
-                    <a href="#">
-                        <img
-                            src="./assets/img/home/Logo.svg"
-                            alt=""
-                            class="home__logo"
-                        />
+                <nav class="navbar">
+                    <!-- logo -->
+                    <a href="#!">
+                        <img src="../assets/img/home/Logo.svg" alt="" class="navbar__logo" />
                     </a>
-                    <a href="home.html" class="home__icon"
-                        ><i class="fa-solid fa-house"></i
-                    ></a>
-                    <ul class="home__list">
-                        <li class="home__item">
-                            <a href="introduction.html">Giới thiệu</a>
+                    <a href="home.html " class="navbar__icon--out">
+                        <i class="fa-solid fa-house navbar__icon"></i>
+                    </a>
+                    <!-- navigation -->
+                    <ul class="navbar__list">
+                        <li class="navbar__item">  
+                              <a href="introduction.html">Giới thiệu</a>
                         </li>
-                        <li class="home__item">
+                        <li class="navbar__item">
                             <a href="calendar.html">Lịch sự kiện</a>
                         </li>
-                        <li class="home__item">
-                            <a href="produce.html">Sản phẩm</a>
+                        <li class="navbar__item">
+                            <a href="product.html">Sản phẩm</a>
+
                         </li>
-                        <li class="home__item">
-                            <a href="#">Liên hệ</a>
+                        <li class="navbar__item ">
+                            <a href="#!" >Liên hệ</a>
+                            <ul class="subnav ">
+                                <li class="subnav__itemChild"><a href="../html/contact.html">Quảng Cáo Logo</a></li>
+                                <li class="subnav__itemChild"><a href="../html/contact1.html">Tài Trợ Lễ Hội</a></li>
+                                <li class="subnav__itemChild"><a href="../html/contact2.html">Khác</a></li>
+                            </ul>
                         </li>
-                        <li class="home__item">
-                            <a href="#">Tin tức</a>
+                        <li class="navbar__item">
+                            <a href="news.html">Tin tức</a>
                         </li>
                     </ul>
-                    <div class="home__action">
+                    <!-- Action -->
+                    <div class="btn">
                         <a href="#"
                             ><i
-                                class="fa-solid fa-ticket home__action--icon"
+                                class="fa-solid fa-ticket navbar__action--icon"
                             ></i
                         ></a>
-                        <a href="#" class="home__action--content"
-                            >ĐẶT VÉ NGAY</a
-                        >
+                        <a href="#" class="navbar__content">ĐẶT VÉ NGAY</a>
                     </div>
                 </nav>
-                <div class="hero">
+            </div>
+        </header>
+        <main>
+            <div class="hero">
+                <div class="container">
+                    <div class="hero__all">
                         <div class="hero__img--top">
                             <figure class="hero__fas">
                                 <img
-                                    src="./assets/img/home/Festival.png"
+                                    src="../assets/img/home/Festival.png"
                                     alt="Festival"
                                 />
                             </figure>
                             <figure class="hero__khinh">
                                 <img
-                                    src="./assets/img/home/Text Khinh khí cầu.png"
+                                    src="../assets/img/home/Text Khinh khí cầu.png"
                                     alt="Khinh khí cầu"
                                 />
                             </figure>
                             <figure class="hero__ballon">
                                 <img
-                                    src="./assets/img/home/Hot air balloon logo 2.png"
+                                    src="../assets/img/home/Hot air balloon logo 2.png"
                                     alt=""
                                 />
                             </figure>
+                        </div>
                     </div>
-
-                    
                 </div>
-                
+                <img src="../assets/img/home/Clouds 01.png" alt="" class="hero-bot__img" />
             </div>
-            <figure><img
-                src="./assets/img/home/Clouds 01.png"
-                alt=""
-                class="hero-bot__img"
-            />
-            <img
-                src="./assets/img/intro/Cloud 2-01 3.png"
-                alt=""
-                class="hero-bot__img"
-            />
-            <img
-                src="./assets/img/intro/Cloud 2-01 6.png"
-                alt=""
-                class="hero-bot__img"
-            />
-            
-        </figure>
-                
-        </header>
-        <main>
             <div class="home-intro">
                 <div class="container">
                     <div class="intro__all">
@@ -120,7 +108,7 @@
                         </h1>
                         <div class="intro__rows">
                             <video controls class="intro__video">
-                                <source src="4Feature.mp4" type="video/mp4" />
+                                <source src="../4Feature.mp4" type="video/mp4" />
                             </video>
                             <div class="intro__content">
                                 <h2 class="section__heading1">
@@ -137,10 +125,13 @@
                             </div>
                         </div>
 
-                        <div class="home__action">
-                            <a href="#" class="home__action--content"
-                                >ĐẶT VÉ NGAY</a
-                            >
+                        <div class="btn">
+                            <a href="#"
+                                ><i
+                                    class="fa-solid fa-ticket navbar__action--icon"
+                                ></i
+                            ></a>
+                            <a href="#" class="navbar__content">ĐẶT VÉ NGAY</a>
                         </div>
                     </div>
                 </div>
@@ -150,89 +141,89 @@
                     <div class="partner__all">
                         <div class="partner-left">
                             <h1 class="section__heading1">
-                                Đối tác của chúng tôi
+                                Đối tác của <br>chúng tôi
                             </h1>
                             <ul class="partner__list">
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner1.png"
+                                        src="../assets/img/home/partner1.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner2.png"
+                                        src="../assets/img/home/partner2.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner3.png"
+                                        src="../assets/img/home/partner3.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner4.png"
+                                        src="../assets/img/home/partner4.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner2.png"
+                                        src="../assets/img/home/partner2.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner1.png"
+                                        src="../assets/img/home/partner1.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner2.png"
+                                        src="../assets/img/home/partner2.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner3.png"
+                                        src="../assets/img/home/partner3.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner4.png"
+                                        src="../assets/img/home/partner4.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner3.png"
+                                        src="../assets/img/home/partner3.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner1.png"
+                                        src="../assets/img/home/partner1.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner2.png"
+                                        src="../assets/img/home/partner2.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner3.png"
+                                        src="../assets/img/home/partner3.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner4.png"
+                                        src="../assets/img/home/partner4.png"
                                     ></img>
                                 </li>
                                 <li class="partner__item">
                                     <img
-                                        src="./assets/img/home/partner1.png"
+                                        src="../assets/img/home/partner1.png"
                                     ></img>
                                 </li>
                             </ul>
                         </div>
                         <div class="partner-right">
                             <img
-                                src="./assets/img/home/Hot air balloon logo 1.png"
+                                src="../assets/img/home/Hot air balloon logo 1.png"
                                 alt=""
                             />
                         </div>
@@ -246,27 +237,27 @@
                             Fly up Việt Nam?</h1>
                         <div class="what__list">
                             <div class="what__item">
-                                <img src="./assets/img/home/what1.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what1.png" alt="" class="what__img">
                                 <h3 class="what__span">ĐẠI NHẠC HỘI</h3>
                             </div>
                             <div class="what__item">
-                                <img src="./assets/img/home/what2.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what2.png" alt="" class="what__img">
                                 <h3 class="what__span">PHỐ ẨM THỰC</h3>
                             </div>
                             <div class="what__item">
-                                <img src="./assets/img/home/what3.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what3.png" alt="" class="what__img">
                                 <h3 class="what__span">CHỢ THƯƠNG MẠI</h3>
                             </div>
                             <div class="what__item">
-                                <img src="./assets/img/home/what4.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what4.png" alt="" class="what__img">
                                 <h3 class="what__span">CHỤP ẢNH, QUAY FILM</h3>
                             </div>
                             <div class="what__item">
-                                <img src="./assets/img/home/what5.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what5.png" alt="" class="what__img">
                                 <h3 class="what__span">CARNIVAL</h3>
                             </div>
                             <div class="what__item">
-                                <img src="./assets/img/home/what6.png" alt="" class="what__img">
+                                <img src="../assets/img/home/what6.png" alt="" class="what__img">
                                 <h3 class="what__span">TRẢI NGHIỆM BAY</h3>
                             </div>
                         </div>
@@ -280,42 +271,42 @@
                             và sắp diễn ra</h1>
                         <div class="event__list">
                             <div class="event__item">
-                                <img src="./assets/img/home/what1.png" class="event__item--img">
+                                <img src="../assets/img/home/what1.png" class="event__item--img">
                                 <div class="event__content">
-                                    <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
+                                    <div class="event__address ">
+                                        <i class="fa-solid fa-location-dot event__icon"></i>
                                         <h3 class="event__heading">HÀ NỘI</h3>
                                     </div>
                                     <div class="event__time">
-                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-calendar-days event__icon"></i>
                                         <span class="event__desc">20.3.2023 đến 24.3.2023</span>
                                         <div class="event__btn home__action">Đang diễn ra</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="event__item">
-                                <img src="./assets/img/home/what1.png" class="event__item--img">
+                                <img src="../assets/img/home/what1.png" class="event__item--img">
                                 <div class="event__content">
                                     <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
+                                        <i class="fa-solid fa-location-dot event__icon"></i>
                                         <h3 class="event__heading">HUẾ</h3>
                                     </div>
                                     <div class="event__time">
-                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-calendar-days event__icon"></i>
                                         <span class="event__desc">20.3.2023 đến 24.3.2023</span>
                                         <div class="event__btn home__action">Đang diễn ra</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="event__item">
-                                <img src="./assets/img/home/what1.png" class="event__item--img">
+                                <img src="../assets/img/home/what1.png" class="event__item--img">
                                 <div class="event__content">
                                     <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
+                                        <i class="fa-solid fa-location-dot event__icon"></i>
                                         <h3 class="event__heading">NHA TRANG</h3>
                                     </div>
                                     <div class="event__time">
-                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-calendar-days event__icon"></i>
                                         <span class="event__desc">20.3.2023 đến 24.3.2023</span>
                                         <div class="event__btn home__action">Đang diễn ra</div>
                                     </div>
@@ -352,8 +343,8 @@
 
                                 </div>
                             </div>
-                            <img src="./assets/img/home/anhnen.jpg" alt="" class="intro2__img">
-                            <img src="./assets/img/home/anhnen.jpg" alt="" class="intro2__img">
+                            <img src="../assets/img/home/anhnen.jpg" alt="" class="intro2__img">
+                            <img src="../assets/img/home/anhnen.jpg" alt="" class="intro2__img">
                             <div class="intro2__rows--right">
                                 <h2 class="intro2__heading--right">Nâng cấp trải nghiệm bay 
                                     với dịch vụ mang dấu ấn cá nhân</h2>
@@ -379,7 +370,7 @@
                     <div class="footer__column">
                         <!-- Logo -->
                         <a href="/">
-                            <img src="./assets/img/home/Logo.svg" alt="">
+                            <img src="../assets/img/home/Logo.svg" alt="">
                         </a>
                         <p class="footer__desc">
                             Exceptional dental care for all ages. Your great

@@ -31,7 +31,6 @@ a {
     line-height: 1.4;
     color: #505050;
 }
-
 .btn {
     display: inline-block;
     min-width: 98px;
@@ -114,6 +113,7 @@ a {
 }
 
 /* product */
+/* product */
 .product {
     margin-top: 5%;
     padding: 50px 0;
@@ -148,9 +148,9 @@ a {
     color: #fff;
     scale: 1.1;
 }
-.product__list {
+.product2__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -200,4 +200,9 @@ a {
 .product__btn2 a {
     color: #fff;
     font-weight: 600;
+}
+/* thêm so với product */
+.product2__desc {
+    margin-top: 30px;
+    text-align: left;
 }

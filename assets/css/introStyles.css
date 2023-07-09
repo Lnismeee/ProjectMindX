@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 62, 5%;
+    font-size: 62.5%;
 }
 body {
     font-size: 1.6rem;
@@ -11,7 +11,7 @@ body {
 /* common */
 .container {
     width: 1230px;
-    max-width: calc(100%-48px);
+    max-width: calc(100% - 48px);
     margin: 0 auto;
 }
 a {
@@ -19,207 +19,116 @@ a {
 }
 
 .intro__heading {
-    font-size: 3.5rem;
+    font-size: 6.4rem;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.33;
     color: #1d77ff;
 }
 .intro__desc {
     padding: 5px 0;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.4;
     color: #505050;
 }
 /* header */
 .header {
+    background-image: linear-gradient(#1d77ff, #005eb1);
+    /* background-color: #005eb1; */
+    position: fixed;
     position: relative;
-    background: url("../img/intro/intro.png") no-repeat top center;
-    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
-.home {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.home__logo {
+.navbar__logo {
     width: 80px;
     height: 80px;
 }
-.home__icon {
+.navbar__icon {
     color: #fff;
 }
 
 .fa-house {
-    padding: 6px 16px;
+    padding: 10px 16px;
     border-radius: 99px;
     background-color: #8ad6ec18;
 }
-.home__list {
+.navbar__list {
     display: flex;
     background-color: #8ad6ec18;
-    padding: 9px 28px;
+    padding: 10px 28px;
     border-radius: 99px;
 }
-.home__item {
-    text-align: center;
-    font-size: 1rem;
+.navbar__item {
+    font-size: 1.6rem;
     font-weight: 700;
-    line-height: 1.14;
+    line-height: 1.12;
+    text-align: center;
     text-transform: capitalize;
     margin-left: 57px;
 }
-.home__item a {
+.navbar__item a {
     color: rgba(255, 255, 255, 0.6);
 }
-.home__item:hover a {
+.navbar__item:hover a {
     color: #fff;
 }
-.home__item:first-child {
+.navbar__item:first-child {
     margin-left: 0;
 }
-.home__action {
+.btn {
     display: inline-block;
     min-width: 98px;
-    padding: 12px 30px;
-    background: #1c87c9;
+    padding: 10px 30px;
+    background: #1d77ff;
     border-radius: 99px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.38;
     text-align: center;
     color: #f7ce68;
 }
-.home__icon:hover,
-.home__action:hover {
+.navbar__icon:hover,
+.navbar__action:hover {
     opacity: 0.8;
 }
-.home__action--icon {
+.navbar__action--icon {
     margin-right: 10px;
     color: #f7ce68;
 }
-.home__action--content {
+
+.navbar__content {
     color: #f7ce68;
 }
-
-/* Footer */
-.footer {
-    padding-top: 100px;
-    background: #10375c;
-}
-
-.footer__row {
-    display: grid;
-    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
-    column-gap: 78px;
-}
-
-.footer__desc {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    line-height: 1.23;
-    color: #a9b3bb;
-}
-
-.footer__heading {
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 1.23;
-    color: #fff;
-}
-
-.footer__list {
-    margin-bottom: 28px;
-}
-
-.footer__link {
-    font-size: 1rem;
-    line-height: 1.23;
-    color: #a9b3bb;
-    white-space: nowrap;
-}
-
-.footer__link:hover {
-    text-decoration: underline;
-}
-
-.footer__item {
-    margin-bottom: 10px;
-}
-
-.footer__social {
-    display: flex;
-    column-gap: 10px;
-    margin-bottom: 28px;
-}
-
-.footer__social-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    color: #2e80ce;
-    background: #fff;
-    transition: 0.25s;
-}
-
-.footer__social-btn:hover {
-    color: #fff;
-    background: #2e80ce;
-}
-
-.footer-form {
-    display: flex;
-    column-gap: 12px;
-    margin-top: 10px;
-}
-
-.footer-form__input {
-    width: 212px;
-    height: 46px;
-    padding: 0 10px;
-    outline: none;
-    border: 1px solid #406181;
-    border-radius: 4px;
-    color: #fff;
-    background: transparent;
-}
-.footer-form__input:hover {
-    opacity: 0.5;
-}
-.footer-form__input::placeholder {
-    font-size: 1rem;
-    line-height: 1.86;
-    color: #9ca8b1;
-}
-
-.footer-form__submit {
-    height: 46px;
-    min-width: 100px;
-    border-radius: 10px;
-    font-size: 1rem;
-    color: #fff;
-}
-
-.footer__copyright {
-    padding: 28px 0 42px;
-    border-top: 1px solid #406181;
-}
-
-.footer__copyright-text {
-    font-size: 1rem;
-    line-height: 1.23;
-    text-align: center;
-    color: #aab3ba;
-}
-
 /* hero */
 .hero {
+    position: relative;
+    background: url("../img/intro/intro.png") no-repeat bottom center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.hero__khinh {
+    margin-left: 300px;
+}
+.hero__ballon {
+    margin-top: 0px;
+}
+.hero-bot__img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.hero__all {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
 }
 .hero__heading {
     font-size: 13.5695rem;
@@ -228,6 +137,7 @@ a {
 }
 
 .hero-left {
+    margin-top: 50px;
     width: 50%;
 }
 .hero-left__img {
@@ -238,19 +148,19 @@ a {
     margin-top: 50px;
     color: #fff;
     text-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-    font-size: 3.4;
+    font-size: 3.4rem;
     font-weight: 500;
     line-height: 1.23;
 }
 .hero-right {
     margin-right: -120px;
+    margin-bottom: 100px;
 }
 .hero-bot__img {
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     height: 300px;
 }
+
 /* intro1 */
 .intro1 {
     background-image: linear-gradient(#fff, #8ad6ec);
@@ -322,13 +232,13 @@ a {
 }
 .intro3__heading {
     color: #505050;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     font-weight: 700;
     line-height: 1.23;
 }
 .intro3__THT {
     padding: 5px 0;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 1.23;
     color: #1d77ff;
@@ -432,13 +342,13 @@ a {
     margin-right: 10px;
 }
 .intro5__desc {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.5;
     color: #15143966;
 }
 .intro5__heading {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 2px;

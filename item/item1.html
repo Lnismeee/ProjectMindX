@@ -4,8 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- css -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/calendarStyles.css" />
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+        <link rel="stylesheet" href="../assets/css/item/item1.css" />
+        <link rel="stylesheet" href="../assets/css/footer.css" />
 
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,217 +29,150 @@
         <!-- Header -->
         <header class="header">
             <div class="container">
-                <nav class="home">
-                    <a href="#">
+                <nav class="navbar">
+                    <!-- logo -->
+                    <a href="#!">
                         <img
-                            src="./assets/img/home/Logo.svg"
+                            src="../assets/img/home/Logo.svg"
                             alt=""
-                            class="home__logo"
+                            class="navbar__logo"
                         />
                     </a>
-                    <a href="home.html" class="home__icon"
-                        ><i class="fa-solid fa-house"></i
-                    ></a>
-                    <ul class="home__list">
-                        <li class="home__item">
-                            <a href="introduction.html">Giới thiệu</a>
+                    <a href="../html/home.html" class="navbar__icon">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                    <!-- navigation -->
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="../html/introduction.html">Giới thiệu</a>
                         </li>
-                        <li class="home__item">
-                            <a href="calendar.html">Lịch sự kiện</a>
+                        <li class="navbar__item">
+                            <a href="../html/calendar.html">Lịch sự kiện</a>
                         </li>
-                        <li class="home__item">
-                            <a href="produce.html">Sản phẩm</a>
+                        <li class="navbar__item">
+                            <a href="../html/product.html">Sản phẩm</a>
                         </li>
-                        <li class="home__item">
-                            <a href="#">Liên hệ</a>
+                        <li class="navbar__item">
+                            <a href="../html/contact.html">Liên hệ</a>
                         </li>
-                        <li class="home__item">
-                            <a href="#">Tin tức</a>
+                        <li class="navbar__item">
+                            <a href="../html/news.html">Tin tức</a>
                         </li>
                     </ul>
-                    <div class="home__action">
+                    <!-- Action -->
+                    <div class="btn">
                         <a href="#"
                             ><i
-                                class="fa-solid fa-ticket home__action--icon"
+                                class="fa-solid fa-ticket navbar__action--icon"
                             ></i
                         ></a>
-                        <a href="#" class="home__action--content"
-                            >ĐẶT VÉ NGAY</a
-                        >
+                        <a href="#" class="navbar__content">ĐẶT VÉ NGAY</a>
                     </div>
                 </nav>
-                <div class="hero">
-                    <div class="hero-left">
-                        <img
-                            src="./assets/img/home/Hot air balloon logo 2.png"
-                            alt=""
-                            class="hero-left__img"
-                        />
-                    </div>
-                    <div class="hero-right">
-                        <img
-                            src="./assets/img/intro/Hot air balloon logo 1.png"
-                            alt=""
-                        />
-                    </div>
-                </div>
             </div>
-            <figure>
-                <img
-                    src="./assets/img/home/Clouds 01.png"
-                    alt=""
-                    class="hero-bot__img"
-                />
-                <img
-                    src="./assets/img/intro/Cloud 2-01 3.png"
-                    alt=""
-                    class="hero-bot__img"
-                />
-                <img
-                    src="./assets/img/intro/Cloud 2-01 6.png"
-                    alt=""
-                    class="hero-bot__img"
-                />
-            </figure>
         </header>
         <!-- main -->
         <main>
-            <div class="calendar-event">
+            <div class="item">
                 <div class="container">
-                    <div class="event__all">
-                        <div class="event__list">
-                            <div class="event__item">
-                                <img
-                                    src="./assets/img/home/anhnen.jpg"
-                                    class="event__item--img"
-                                />
-                                <div class="event__content">
-                                    <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <h3 class="event__heading">HÀ NỘI</h3>
-                                    </div>
-                                    <div class="event__time">
-                                        <i
-                                            class="fa-solid fa-calendar-days"
-                                        ></i>
-                                        <span class="event__desc"
-                                            >20.3.2023 đến 24.3.2023</span
-                                        >
-                                        <div class="event__btn home__action">
-                                            Đang diễn ra
-                                        </div>
-                                    </div>
-                                </div>
+                    <h1 class="product__heading">Sản phẩm</h1>
+                    <div class="item__info">
+                        <div class="item__media">
+                            <img
+                                src="../assets/img/home/anhnen.jpg"
+                                alt=""
+                                class="item__img"
+                            />
+                        </div>
+                        <div class="item__content">
+                            <div class="product__ticket">
+                                <i class="fa-solid fa-ticket"></i>
+                                <h3 class="item__heading">THẺ BẠCH KIM</h3>
                             </div>
-                            <div class="event__item">
-                                <img
-                                    src="./assets/img/home/anhnen.jpg"
-                                    class="event__item--img"
-                                />
-                                <div class="event__content">
-                                    <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <h3 class="event__heading">HÀ NỘI</h3>
-                                    </div>
-                                    <div class="event__time">
-                                        <i
-                                            class="fa-solid fa-calendar-days"
-                                        ></i>
-                                        <span class="event__desc"
-                                            >20.3.2023 đến 24.3.2023</span
-                                        >
-                                        <div class="event__btn home__action">
-                                            Đang diễn ra
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="product__ticket">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <h3 class="item__heading">100.000.000 vnđ</h3>
                             </div>
-                            <div class="event__item">
-                                <img
-                                    src="./assets/img/home/anhnen.jpg"
-                                    class="event__item--img"
-                                />
-                                <div class="event__content">
-                                    <div class="event__address">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <h3 class="event__heading">HÀ NỘI</h3>
-                                    </div>
-                                    <div class="event__time">
-                                        <i
-                                            class="fa-solid fa-calendar-days"
-                                        ></i>
-                                        <span class="event__desc"
-                                            >20.3.2023 đến 24.3.2023</span
-                                        >
-                                        <div class="event__btn home__action">
-                                            Đang diễn ra
-                                        </div>
-                                    </div>
-                                </div>
+                            <p class="intro__desc">Bay Toàn Quốc 2 Năm</p>
+                            <div class="item__bot">
+                                <a href="#!" class="item__btn">MUA HÀNG</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="calender-slider">
-                <div class="slider__all">
-                    <div class="slider__list">
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider1.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider2.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider3.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider4.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider4.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider3.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider2.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
-                        <div class="slider__item">
-                            <img
-                                src="./assets/img/calendar/slider1.jpg"
-                                alt=""
-                                class="slider__img"
-                            />
-                        </div>
+            <div class="item">
+                <div class="container">
+                    <h1 class="product__heading">Mô tả sản phẩm</h1>
+                    <div class="item__desc">
+                        <ul class="item__desc1">
+                            <li class="intro__desc">
+                                Giá bán: 100.000.000 đồng (Một trăm triệu đồng)
+                            </li>
+                            <li class="intro__desc">
+                                Hình ảnh thẻ: Màu đen logo trắng
+                            </li>
+                            <li class="intro__desc">
+                                Thời hạn thẻ: 24 tháng (tính từ ngày kích hoạt
+                                thẻ)
+                            </li>
+                            <li class="intro__desc">Số lượng thẻ: 1.000 thẻ</li>
+                            <li class="intro__desc">
+                                Các dịch vụ tiện ích của thẻ:
+                                <ul class="item__desc2">
+                                    <li class="intro__desc">
+                                        Cấp thẻ chứng nhận thành viên Khinh khí
+                                        cầu.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Được bay cố định tất cả các điểm trên
+                                        toàn quốc và số lần bay KHÔNG GIỚI HẠN
+                                        trong vòng 24 tháng tính từ ngày mua
+                                        thẻ.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Được bay nguyên chiếc 6-12 chỗ trên tất
+                                        cả các điểm bay trên toàn lãnh thổ Việt
+                                        Nam. Tổng số chuyến bay là 5 chuyến/năm.
+                                        Thời gian bay đối đa là 3h/chuyến. Đặt
+                                        trước 2 ngày.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Được tặng bay nguyên chiếc 6-12 chỗ trên
+                                        tất cả các điểm bay trên toàn lãnh thổ
+                                        Việt Nam cho bạn bè người thân. Tổng số
+                                        chuyến bay là 2 chuyến/năm. Thời gian
+                                        bay đối đa là 3h/chuyến. Đặt trước 2
+                                        ngày.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Được ưu tiên bay trong các ngày lễ do
+                                        KingSky tổ chức lễ hội Khinh khí cầu tại
+                                        các Tỉnh, Thành phố.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Miễn phí đồ ăn nhẹ, nước uống, khăn lạnh
+                                        khi bay (cà phê, nước hoa quả, nước
+                                        suối, khăn lạnh đi kèm)
+                                    </li>
+                                    <li class="intro__desc">
+                                        Tặng bánh và phục vụ đồ uống khi tổ chức
+                                        sinh nhật trên khinh khí cầu. Đặt trước
+                                        3 ngày.
+                                    </li>
+                                    <li class="intro__desc">
+                                        Tặng 5% giá trị thẻ khi giới thiệu thành
+                                        công bạn bè người thân tham gia.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item__bot">
+                        <p class="item__heading">
+                            Vui lòng liên hệ <span>1900.868.623</span> để được
+                            tư vấn chi tiết
+                        </p>
                     </div>
                 </div>
             </div>
@@ -250,7 +184,7 @@
                     <div class="footer__column">
                         <!-- Logo -->
                         <a href="/">
-                            <img src="./assets/img/home/Logo.svg" alt="" />
+                            <img src="../assets/img/home/Logo.svg" alt="" />
                         </a>
                         <p class="footer__desc">
                             Exceptional dental care for all ages. Your great
