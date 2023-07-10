@@ -1,0 +1,14 @@
+.hero__desc {
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.75;
+    text-align: center;
+    color: #fff;
+}
+.hero {
+    position: relative;
+    padding-top: 10%;
+    background: url("../img/contact1/lienheKhac.png") no-repeat bottom center;
+    background-size: cover;
+    min-height: 800px;
+}
