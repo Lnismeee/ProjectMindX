@@ -131,12 +131,18 @@ a {
     align-items: center;
 }
 .product__btn {
+    display: inline-block;
     width: 150px;
+    padding: 10px 30px;
+    text-align: center;
     margin-left: 30px;
     background-color: #1d77ff;
     border: 1px solid #1d77ff;
+    border-radius: 99px;
     color: #fff;
     font-weight: 500;
+    line-height: 1.38;
+    font-size: 1.6rem;
 }
 .product1__btn {
     background-color: #fff;
@@ -164,7 +170,9 @@ a {
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .product__img {
-    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    object-fit: cover;
 }
 .product__content {
     text-align: left;

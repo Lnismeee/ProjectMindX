@@ -121,7 +121,7 @@ a {
 
     background: url("../img/calendar/calen.jpg") no-repeat bottom center;
     background-size: cover;
-    min-height: 800px;
+    min-height: 900px;
 }
 
 .hero__khinh {
@@ -198,7 +198,7 @@ a {
     font-size: 3.8rem;
     font-weight: 700;
     line-height: 1.4;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .event__desc {
     display: inline-block;
@@ -206,7 +206,7 @@ a {
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.3;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .event__time {
     display: flex;
@@ -215,6 +215,10 @@ a {
 }
 .event__btn {
     color: #fff;
+}
+.event__icon {
+    font-size: 2.5rem;
+    color: #505050;
 }
 /* slider */
 
