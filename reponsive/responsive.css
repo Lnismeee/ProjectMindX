@@ -1,0 +1,61 @@
+/* PC */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .intro__rows {
+        display: block;
+    }
+    .what__list {
+        display: block;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+    .event__list {
+        display: block;
+        margin-top: 30px;
+    }
+    .event__item {
+        margin-top: 30px;
+    }
+    .section__heading1 {
+        font-size: 5rem;
+    }
+    .intro2__heading {
+        width: 100%;
+    }
+    .hero__fas {
+        margin-top: 50px;
+    }
+    .hero__khinh {
+        height: 100px;
+        text-align: left;
+        margin-left: 100px;
+    }
+    .hero__khinh img {
+        width: 500px;
+    }
+    .hero__ballon {
+        margin-top: 50px;
+    }
+    .partner__all {
+        display: block;
+    }
+    .partner-right {
+        width: 30%;
+        text-align: right;
+        margin-left: 350px;
+    }
+    .partner-right img {
+        max-width: 100%;
+    }
+    .partner__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+}
