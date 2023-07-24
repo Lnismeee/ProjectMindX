@@ -140,7 +140,8 @@ a {
     border-radius: 16px;
 }
 .item__img--t {
-    height: 500px;
+    max-height: 500px;
+    max-width: 100%;
 }
 .item__heading {
     margin-left: 30px;

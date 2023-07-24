@@ -126,8 +126,11 @@ a {
 .hero-left {
     margin-top: 100px;
 }
-.hero-right {
+
+.hero__heading {
     font-size: 10rem;
+    font-weight: 700;
+    line-height: 1.2;
     color: #fff;
 }
 .hero__khinh {

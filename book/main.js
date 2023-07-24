@@ -17,7 +17,7 @@ let products = [
     {
         id: 1,
         name: "Vé Vào Cửa Lễ Hội - Trẻ Em",
-        image: "../assets/img/product/tickets-350x301.png",
+        image: "../assets/img/product/kid.jpg",
         price: 60000,
         address: "Hà Nội",
         time: "<br>26-7-2023 đến 30-7-2023 ",
@@ -25,7 +25,7 @@ let products = [
     {
         id: 2,
         name: "Vé Vào Cửa Lễ Hội - Người lớn",
-        image: "../assets/img/product/ticket1.jpeg",
+        image: "../assets/img/product/adults.jpg",
         price: 100000,
         address: "Hà Nội",
         time: "<br>26-7-2023 đến 30-7-2023 ",
@@ -33,7 +33,7 @@ let products = [
     {
         id: 3,
         name: "Vé Vào Cửa Lễ Hội - Công Ty",
-        image: "../assets/img/product/ticket2.avif",
+        image: "../assets/img/product/company.jpg",
         price: 80000,
         address: "Hà Nội",
         time: "<br>26-7-2023 đến 30-7-2023 ",
@@ -41,8 +41,8 @@ let products = [
     {
         id: 4,
         name: "Vé Vào Cửa Lễ Hội - Ưu tiên",
-        image: "../assets/img/product/ticket3.avif",
-        price: 100000,
+        image: "../assets/img/product/ưu tiên.jpg",
+        price: 200000,
         address: "Hà Nội",
         time: "<br>26-7-2023 đến 30-7-2023 ",
     },

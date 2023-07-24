@@ -118,7 +118,6 @@ a {
 /* hero */
 .hero {
     position: relative;
-
     background: url("../img/calendar/calen.jpg") no-repeat bottom center;
     background-size: cover;
     min-height: 900px;
@@ -138,11 +137,15 @@ a {
 .hero__all {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .hero__heading {
-    font-size: 13.5695rem;
-    font-weight: 300;
-    line-height: 141.349px;
+    position: absolute;
+    right: 0;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1d77ff;
 }
 
 .hero-left {

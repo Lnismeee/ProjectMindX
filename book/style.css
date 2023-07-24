@@ -193,12 +193,16 @@ header h1 {
 
 /* styles js */
 .add__img {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
+    height: 260px;
+    object-fit: cover;
 }
 .add__img--in {
     max-width: 100%;
-    height: 260px;
+    max-height: 260px;
     object-fit: cover;
 }
 .listPage {
