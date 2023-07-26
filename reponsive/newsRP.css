@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .hero {
+        min-height: 600px;
+    }
+    .news1__intro {
+        display: block;
+        text-align: center;
+    }
+    .news1__media--img {
+        margin-top: 30px;
+    }
+    .new2__img1,
+    .new2__img2,
+    .new2__img3,
+    .new2__img4,
+    .new2__img5 {
+        display: none;
+    }
+    .news3__social {
+        display: block;
+    }
+    .social__list--left,
+    .social__list--right {
+        width: 100%;
+    }
+    .media__img {
+        width: 200px;
+    }
+}

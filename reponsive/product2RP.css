@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .product2__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* .hidden {
+        display: none;
+    }
+    .navbar__list {
+        position: ;
+    }
+    .visible {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .navbar__item {
+        text-align: center;
+    } */
+}

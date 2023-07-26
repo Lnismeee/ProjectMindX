@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "Vé Vào Cửa Lễ Hội - Trẻ Em",
+        "image": "../assets/img/product/kid.jpg",
+        "price": 60000,
+        "address": "Hà Nội",
+        "time": "26-7-2023 đến 30-7-2023 "
+    },
+    {
+        "id": 2,
+        "name": "Vé Vào Cửa Lễ Hội - Người lớn",
+        "image": "../assets/img/product/adults.jpg",
+        "price": 100000,
+        "address": "Hà Nội",
+        "time": "26-7-2023 đến 30-7-2023 "
+    },
+    {
+        "id": 3,
+        "name": "Vé Vào Cửa Lễ Hội - Công Ty",
+        "image": "../assets/img/product/company.jpg",
+        "price": 80000,
+        "address": "Hà Nội",
+        "time": "26-7-2023 đến 30-7-2023 "
+    },
+    {
+        "id": 4,
+        "name": "Vé Vào Cửa Lễ Hội - Ưu tiên",
+        "image": "../assets/img/product/ưu tiên.jpg",
+        "price": 200000,
+        "address": "Hà Nội",
+        "time": "26-7-2023 đến 30-7-2023 "
+    },
+    {
+        "id": 5,
+        "name": "Music festival Wonder",
+        "image": "../assets/img/product/ticket5.jpg",
+        "price": 300000,
+        "address": "Vinwonder Nha Trang",
+        "time": "20:00, 22 tháng 7 năm 2023"
+    },
+    {
+        "id": 6,
+        "name": "Buổi hoà nhạc Summer vibes",
+        "image": "../assets/img/product/ticket6.jpg",
+        "price": 300000,
+        "address": " Thừa Thiên Huế",
+        "time": "22:00, 28 tháng 8 năm 2023"
+    },
+    {
+        "id": 7,
+        "name": "Lễ hội âm nhạc",
+        "image": "../assets/img/product/ticket7.jpg",
+        "price": 300000,
+        "address": "Hà Nội",
+        "time": "22:00, 25 tháng 9 năm 2023"
+    },
+    {
+        "id": 8,
+        "name": "Buổi hoà nhạc Open-air",
+        "image": "../assets/img/product/ticket8.jpg",
+        "price": 250000,
+        "address": "Hồ Chí Minh",
+        "time": "22:00, 25 tháng 9 năm 2023"
+    },
+    {
+        "id": 9,
+        "name": "Buổi hoà nhạc Mixtape party",
+        "image": "../assets/img/product/ticket 9.jpg",
+        "price": 300000,
+        "address": "Biển Cửa Lò, Nghệ An",
+        "time": "20:00, 22 tháng 12 năm 2023"
+    },
+    {
+        "id": 10,
+        "name": "THẺ KIM CƯƠNG",
+        "image": "../assets/img/card/1_KIM_CUONG.jpg",
+        "price": 500000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 5 năm"
+    },
+    {
+        "id": 11,
+        "name": "THẺ BẠCH KIM",
+        "image": "../assets/img/card/2_BACH_KIM.jpg",
+        "price": 100000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 2 năm"
+    },
+    {
+        "id": 12,
+        "name": "THẺ VÀNG",
+        "image": "../assets/img/card/3_VANG.jpg",
+        "price": 50000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    },
+    {
+        "id": 13,
+        "name": "THẺ BẠC",
+        "image": "../assets/img/card/4_BAC.jpg",
+        "price": 30000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    },
+    {
+        "id": 14,
+        "name": "THẺ THÀNH VIÊN",
+        "image": "../assets/img/card/5_THANH_VIEN.jpg",
+        "price": 5000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    },
+    {
+        "id": 15,
+        "name": "THẺ GIA ĐÌNH",
+        "image": "../assets/img/card/6_GIA_DINH.jpg",
+        "price": 3000000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    },
+    {
+        "id": 16,
+        "name": "THẺ DOANH NGHIỆP",
+        "image": "../assets/img/card/7_DOANH_NGHIEP.jpg",
+        "price": 5500000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    },
+    {
+        "id": 17,
+        "name": "THẺ CÔNG ĐOÀN",
+        "image": "../assets/img/card/8_CONG_DOAN.jpg",
+        "price": 4900000,
+        "address": "Hà Nội",
+        "time": "Bay toàn quốc 1 năm"
+    }
+]

@@ -1,0 +1,16 @@
+/* responsive */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .navbar {
+        display: block;
+    }
+    .navbar__list {
+        margin: 20px 0;
+    }
+    .btn {
+        margin-bottom: 10px;
+    }
+}

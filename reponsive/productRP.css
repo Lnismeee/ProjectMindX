@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .product__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

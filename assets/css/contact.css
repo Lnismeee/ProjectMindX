@@ -187,6 +187,7 @@ a {
     font-weight: 500;
     line-height: 1.75;
     margin-top: 20px;
+    text-align: justify;
 }
 .intro__desc li {
     list-style: disc;

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .hero__img--top {
+        margin-top: 200px;
+    }
+    .hero__desc {
+        font-size: 10rem;
+        font-weight: 700;
+        line-height: 1.75;
+        text-align: center;
+        color: #fff;
+    }
+    .hero-bot__img {
+        display: none;
+    }
+    .contact__heading {
+        width: 100%;
+    }
+    .second__heading {
+        font-size: 2rem;
+    }
+    .second-right {
+        width: 100%;
+    }
+    .info__heading {
+        width: 70%;
+    }
+    .form {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .form__list {
+        margin-top: 30px;
+    }
+}

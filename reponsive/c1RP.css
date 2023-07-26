@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .hero__img--top {
+        margin-top: 200px;
+    }
+    .intro__rows {
+        display: block;
+    }
+    .intro__content {
+        margin-top: 20px;
+    }
+    .partner-right img {
+        height: 400px;
+    }
+    .event__item--img {
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .require__heading {
+        width: 100%;
+    }
+    .form {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .form__list {
+        margin-top: 30px;
+    }
+}

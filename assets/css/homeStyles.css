@@ -153,7 +153,7 @@ a {
 .hero-bot__img {
     position: absolute;
     width: 100%;
-    bottom: -100px;
+    bottom: -200px;
 }
 /* intro */
 .home-intro {

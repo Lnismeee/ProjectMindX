@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1024px) {
+    .footer-form {
+        display: block;
+    }
+    .footer-form__submit {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 880px) {
+    .footer {
+        padding-top: 50px;
+    }
+    .footer__row {
+        display: grid;
+        grid-template-columns: 1fr 0.4fr;
+        gap: 30px;
+    }
+    .footer-form {
+        display: block;
+    }
+    .footer-form__submit {
+        margin-top: 10px;
+    }
+}

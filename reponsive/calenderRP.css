@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .hero {
+        min-height: 600px;
+    }
+    .hero__heading {
+        bottom: -100px;
+    }
+    .event__address {
+        height: 100px;
+    }
+    .event__time {
+        display: block;
+    }
+    .event__time1 {
+        display: flex;
+    }
+    .event__btn {
+        margin-top: 30px;
+    }
+}

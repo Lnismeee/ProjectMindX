@@ -14,7 +14,7 @@
     }
     .event__list {
         display: block;
-        margin-top: 30px;
+        margin: 30px 100px 0;
     }
     .event__item {
         margin-top: 30px;
@@ -42,6 +42,7 @@
     .partner__all {
         display: block;
     }
+
     .partner-right {
         width: 30%;
         text-align: right;
@@ -57,5 +58,11 @@
         row-gap: 10px;
         margin-top: 10px;
         align-items: center;
+    }
+    .intro2__rows {
+        row-gap: 20px;
+    }
+    .intro2__img {
+        height: 300px;
     }
 }

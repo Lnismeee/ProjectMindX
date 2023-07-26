@@ -30,6 +30,7 @@ a {
     font-weight: 500;
     line-height: 1.4;
     color: #505050;
+    text-align: justify;
 }
 .btn {
     display: inline-block;
@@ -149,12 +150,6 @@ a {
     padding-top: 10%;
 }
 
-.hero__khinh {
-    margin-left: 300px;
-}
-.hero__ballon {
-    margin-top: 0px;
-}
 .hero-bot__img {
     position: absolute;
     bottom: 0;
