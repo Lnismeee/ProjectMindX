@@ -2,6 +2,7 @@ let iconCart = document.querySelector(".iconCart");
 let cart = document.querySelector(".cart");
 let container = document.querySelector(".container");
 let close = document.querySelector(".close");
+
 iconCart.addEventListener("click", function () {
     if (cart.style.right == "-100%") {
         cart.style.right = "0";
@@ -100,9 +101,7 @@ function addCartToHTML() {
             if (product) {
                 let newCart = document.createElement("div");
                 newCart.classList.add("item");
-                newCart.innerHTML = `
-    
-                        <img src="${product.image}" alt="">
+                newCart.innerHTML = `<img src="${product.image}">
                     <div class="content">
                         <div class="name">${product.name}</div>
                         <div class="price">${product.price.toLocaleString()} VND/ 1 vé</div>

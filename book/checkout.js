@@ -44,26 +44,20 @@ function addCartToHTML() {
         });
     }
     totalQuantityHTML.innerText = totalQuantity;
-    totalPriceHTML.innerText = totalPrice.toLocaleString() + "VND";
+    totalPriceHTML.innerText = totalPrice.toLocaleString() + " VND";
 }
-let submitPhone = document.getElementById("phone").value;
 
-//
 function CustomAlert() {
-    //
     this.alert = function (message, title) {
         let submitName = document.getElementById("fullName").value;
         let submitPhone = document.getElementById("phone").value;
         let submitAddress = document.getElementById("address").value;
-
         // 1. Validate dữ liệu. VD: Nhập đủ thông tin.
-
         if (!submitName || !submitPhone || !submitAddress) {
             alert("Vui lòng nhập đủ thông tin trước khi thực hiện thanh toán!");
             return;
         }
-
-        // 2. Thực hiện đẩy data checkout vào cookie hoặc localStorage.
+        // 2. Thực hiện đẩy data checkout vào cookie hoặc localstorage.
         // const keyNgoc = `data_checkout`;
         document.cookie =
             "data_checkout=" +
@@ -112,8 +106,7 @@ function CustomAlert() {
     this.ok = function () {
         document.getElementById("dialogbox").style.display = "none";
         document.getElementById("dialogoverlay").style.display = "none";
-        window.location.href = "index.html";
+        window.location.href = "./index.html";
     };
 }
-
 let customAlert = new CustomAlert();

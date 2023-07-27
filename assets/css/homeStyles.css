@@ -304,6 +304,10 @@ a {
     background-color: #fff;
     font-weight: 700;
     font-size: 2rem;
+    text-align: center;
+}
+.event__btn:hover {
+    scale: 1;
 }
 /* intro2 */
 .home-intro2 {
