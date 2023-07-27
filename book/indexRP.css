@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .listProduct {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cart {
+        grid-template-rows: 50px 1fr;
+    }
+    .cart .listCart {
+        padding: 10px;
+    }
+    .cart .listCart .item {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+}
